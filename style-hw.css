@@ -20,12 +20,12 @@ a{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding-top: 30px;
-    padding-bottom: 30px;
 }
 .image {
+    padding-top: 30px;
+    padding-bottom: 30px;
     width: 185px;
-    height: 55px;
+    height: 105px;
 }
 .image-item1{
     color: white;
@@ -37,11 +37,12 @@ a{
     font-size: 1.5ch;
 }
 .content{
-    /* width: 640px; */
     height: 55px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    list-style-type: none;
+
 }
 .content-item{
     text-align: center;
@@ -49,26 +50,20 @@ a{
     color: white;
     border-radius: 10px;
     height: 40px;
-
 }
-.content-item:active{
-    background-color:red;
-}
-
 .content-item:hover{ 
     transition: 0.5s;
     background-color:#76c38f;
 }
-.gallery-section{
+.slider-section{
     background-color: #290000;
 }
 .galerry-container-items{
-    height: 520px;
     display: flex;
     flex-direction: row;
     overflow: hidden;
 }
-.gallery-container {
+.slider-container {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -79,7 +74,7 @@ a{
 .arrow{
     padding-top: 242px;
     width:30px;
-    height:100%;
+    height:520px;
     position: relative;
     overflow: hidden;
     cursor: pointer;
@@ -100,20 +95,21 @@ a{
     left: 6px;
     transition: 0.3s;
 }
-.gallery-text{
+.slider-text{
+    
     width: 325px;
 }
-.galery-text-1{
+.slider-text-1{
     font-size: 5ch;
     color: white;
     overflow-wrap:normal;
 }
-.galery-text-2{
+.slider-text-2{
     color: #979797;
     font-size: 1.5ch;
 }
 
-.gallery-circle {
+.slider-circle {
     width: 380px;
     height: 380px;
     border: 20px solid #6b6b6b;
@@ -126,14 +122,14 @@ a{
     background-color: #660000;
 }
 .service-container{
-    padding-top: 50px;
-    padding-bottom: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
 .service{
+    margin-top: 50px;
+    margin-bottom: 50px;
     padding:30px;
     height: 300px;
     width: 225px;
@@ -167,13 +163,13 @@ a{
     background-color: #660000;
 }
 .title-container{
-    padding-top: 35px;
-    padding-bottom: 35px;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 .line{
+    margin-top: 35px;
+    margin-bottom: 55px;
     width: 100%;
     height: 2px;
     background-color: #303030;
@@ -192,13 +188,13 @@ a{
     bottom: -21px;
 }
 .work-section{
-    
     background-color: #660000;
 }
 .work-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 30px;
+    padding-bottom: 50px;
 }
 .work{
     height: 200px;
