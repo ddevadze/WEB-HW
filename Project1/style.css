@@ -183,7 +183,7 @@ h2,p,h3,h4{
 .slider-text{
     padding-bottom: 70px;
     padding-top: 70px;
-    height: 320px;
+    /* height: 320px; */
     width: 480px;
     display: flex;
     flex-direction: column;
@@ -195,14 +195,16 @@ h2,p,h3,h4{
     color: #4a4a4a;
     font-family: "Georgia";
     text-transform: uppercase;
+    padding-bottom: 20px;
 }
 .slider-text-paragraph{
-    width: 497px;
-    height: 64px;
+    /* width: 497px; */
+    /* height: 64px; */
     font-size: 16px;
     color: #999999;
     font-family: "Georgia";
     line-height: 22px;
+    padding-bottom: 35px;
 }
 .slider-text-button{
     width: 126px;
@@ -305,7 +307,7 @@ h2,p,h3,h4{
     background-color: #ffffff;
 }
 .services{
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -453,4 +455,39 @@ ul.footer-item-list li{
     line-height: 12px;
     color: #999999;
     font-family: "Georgia";
+}
+
+@media all and (max-width: 960px) {
+    .container{
+        width:100%;
+    }
+    .header-top{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .header-bot{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .intros{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .footer-container{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .slider{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    html, body { overflow-x: hidden; }
+
+}
+@media all and (max-width: 720px) {
+    .header-bot-navigation{
+        display: none;
+    }
+}
+
 }
