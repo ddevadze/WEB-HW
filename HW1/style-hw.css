@@ -289,18 +289,3 @@ ul.footer-item-list li{
     color:#979797;
     height: 60px;
 }
-.copyright-section{
-    background-color: #222222;
-    border-top: 3px solid white;
-    border-bottom: 2px solid white;
-}
-.copyright{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.copyright-item{
-    padding-top: 20px;
-    color:#979797;
-    height: 60px;
-}
